@@ -1,0 +1,8 @@
+app:
+  image: fwed/ushare
+  net: "host_ushare"
+  ports:
+    - 49200:49200
+  volumes:
+    - /home/ExtendHD:/home/apps/ushare
+  tty: true
